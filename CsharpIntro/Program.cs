@@ -19,6 +19,7 @@ namespace CsharpIntro
             Console.WriteLine(myBool.ToString()+"is the value of myBool!");
             Console.WriteLine(currentDate);
             Console.ReadLine();
+
         }
     }
 }
