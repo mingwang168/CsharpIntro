@@ -19,13 +19,20 @@ namespace CsharpIntro
             Console.WriteLine(myBool.ToString()+"is the value of myBool!");
             DateTime currenDate = DateTime.UtcNow;
             Console.WriteLine(GetIntSum(5.69m,7.56m));
+            Console.WriteLine(GetIntSum(5.69m, 7.56m));
+            Console.WriteLine(GetIntSum(5.69m, 7.56m));
+            Console.WriteLine(GetIntSum(5.69m, 7.56m));
+            Console.WriteLine(GetIntSum(5.69m, 7.56m));
+
+
+
             Console.ReadLine();
 
         }
 
         private static decimal GetIntSum(decimal a,decimal b)
         {
-            return a + b;
+            return "$"+(a + b);
         }
     }
 }
