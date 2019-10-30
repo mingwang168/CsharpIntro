@@ -18,7 +18,7 @@ namespace CsharpIntro
             DateTime currentDate = DateTime.UtcNow;
             Console.WriteLine(myBool.ToString()+"is the value of myBool!");
             DateTime currenDate = DateTime.UtcNow;
-            Console.WriteLine(GetIntSum(5.67m,7.56m));
+            Console.WriteLine(GetIntSum(5.69m,7.56m));
             Console.ReadLine();
 
         }
