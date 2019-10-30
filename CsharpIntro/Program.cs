@@ -18,12 +18,12 @@ namespace CsharpIntro
             DateTime currentDate = DateTime.UtcNow;
             Console.WriteLine(myBool.ToString()+"is the value of myBool!");
             DateTime currenDate = DateTime.UtcNow;
-            Console.WriteLine(GetIntSum(5,7));
+            Console.WriteLine(GetIntSum(5.67m,7.56m));
             Console.ReadLine();
 
         }
 
-        private static int GetIntSum(int a,int b)
+        private static decimal GetIntSum(decimal a,decimal b)
         {
             return a + b;
         }
